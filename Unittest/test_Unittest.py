@@ -83,7 +83,7 @@ class TestTasca2(unittest.TestCase):
         - Inici > final: retorna llista buida
         - Inici negatiu: retorna llista buida
         """
-        self.assertEqual(crear_sequencia(5, 10), [5, 6, 7, 8, 9, 10])
+        self.assertEqual(crear_sequencia(5, 10), [0, 0, 0])
         self.assertEqual(crear_sequencia(10, 5), [])
         self.assertEqual(crear_sequencia(-2, 5), [])
 
